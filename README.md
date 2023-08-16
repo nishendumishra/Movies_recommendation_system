@@ -59,7 +59,7 @@ The MovieLens datasets include:
 The link to download the dataset is [Kaggle Website](https://www.kaggle.com/code/sohamohajeri/movie-recommendation-systems/input?select=tmdb_5000_movies.csv)
 
 ## Work Flow
-Step-1: Data Collection and PreProcessing , this includes reading the dataset, extracting the features from the list of columns for making our predicting model, use vectorizer to give numerical values for a string.
-Step-2: Finding the cosine similarity of the vectors created from the features. Input the name of the movie from the user and then find the close matches from that word in the list of titles of movies. Using the title find the index value and then use enumerate function find the similarity of all other movies from this movie index found.
-Step-3: After finding the similarity score , sort the list in descending order. 
+Step-1: Data Collection and PreProcessing , this includes reading the dataset, extracting the features from the list of columns for making our predicting model, use vectorizer to give numerical values for a string.\
+Step-2: Finding the cosine similarity of the vectors created from the features. Input the name of the movie from the user and then find the close matches from that word in the list of titles of movies. Using the title find the index value and then use enumerate function find the similarity of all other movies from this movie index found.\
+Step-3: After finding the similarity score , sort the list in descending order. \
 Step-4: Print the names of the 30 similar movies from the beginning of the list.
